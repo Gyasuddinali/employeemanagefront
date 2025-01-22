@@ -27,6 +27,14 @@ export default function EmployeeTable() {
   }
 
   async function deleteEmployee(id) {
+    const username = prompt("Enter admin name:");
+    const password = prompt("Enter admin password:");
+    if (username !== "gyasu" || password !== "1234") {
+      alert("username or password. Didn't match.");
+      return; 
+    }  
+
+
     const isConfirmed = window.confirm("Are you sure you want to delete this employee?");
     if (isConfirmed) {
     try {

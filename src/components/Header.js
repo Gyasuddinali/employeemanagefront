@@ -6,12 +6,12 @@ import { faDatabase, faPerson} from '@fortawesome/free-solid-svg-icons';
 function Header() {
   return (
     <div>
-    <nav className="navbar navbar-expand-lg" style={{backgroundColor:'navajowhite'}}>
+    <nav className="navbar navbar-expand-lg" style={{backgroundColor:'#03a0df'}}>
       <div className="container">
-        <span className="navbar-brand fw-bold">Employee Management System</span>
+        <span className="navbar-brand fw-bold text-white">Employee Management System</span>
         <div className="navbar-nav btn-group container">
-         <button className='btn btn-outline-primary' ><a className="nav-link active" href="/add">Add Employee</a></button>
-         <button className='btn btn-outline-primary'><a className="nav-link active" href="/">Get All Employee</a></button>
+         <button className='btn btn-outline-primary bg-white' ><a className="nav-link active" href="/add">Add Employee</a></button>
+         <button className='btn btn-outline-primary bg-white'><a className="nav-link active" href="/">Get All Employee</a></button>
 
         </div>
       </div>
