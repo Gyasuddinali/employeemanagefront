@@ -1,0 +1,59 @@
+.employee-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .employee-title {
+    color: #ffe4bc;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .employee-card {
+    background-color: #ffe4bc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-image i {
+    font-size: 40px;
+    color: #007bff;
+  }
+  
+  .employee-details {
+    margin-top: 20px;
+  }
+  
+  .detail-item {
+    margin-bottom: 10px;
+  }
+  
+  .btn-edit {
+    margin-right: 10px;
+  }
+  
+  
