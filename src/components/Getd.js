@@ -7,11 +7,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faBriefcase, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import {ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '../components/empolydetails.css'
 export default function EmployeeTable() {
   const [employees, setEmployees] = useState([]);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
   const [showDetails, setShowDetails] = useState(false);
-
   useEffect(() => {
     fetchEmployees();
   }, []);
@@ -137,10 +137,10 @@ export default function EmployeeTable() {
       </div>
       {/* Employee Details Modal */}
       <Modal show={showDetails} onHide={() => setShowDetails(false)}>
-        <Modal.Header closeButton>
-          <Modal.Title>Employee Details</Modal.Title>
+        <Modal.Header className='bg-danger' closeButton>
+          <Modal.Title >Employee Details</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body  className='bg-secondary'>
           {selectedEmployee && (
             <div className="grid gap-6">
               <div className="flex items-start gap-6">
@@ -197,8 +197,8 @@ export default function EmployeeTable() {
             </div>
           )}
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="danger" onClick={() => setShowDetails(false)}>
+        <Modal.Footer  className='bg-danger'>
+          <Button variant="primary" onClick={() => setShowDetails(false)}>
             Close
           </Button>
         </Modal.Footer>

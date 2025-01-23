@@ -179,25 +179,6 @@ const navigate=useNavigate;
         </button>
       </form>
 
-      {/* <div className="row">
-        {employees.map(employee => (
-          <div key={employee.id} className="col-sm-12 col-md-4 mb-4">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">{employee.name}</h5>
-                <p className="card-text">Age: {employee.age}</p>
-                <p className="card-text">Email: {employee.email}</p>
-                <p className="card-text">Department: {employee.department}</p>
-                <p className="card-text">Mobile: {employee.mobile}</p>
-                <p className="card-text">Location: {employee.location}</p>
-                <p className="card-text">Description: {employee.description}</p>
-                {employee.image && <img src={`/${employee.image}`} alt="Employee" className="img-fluid mb-3" />}
-                
-              </div>
-            </div>
-          </div>
-        ))}
-      </div> */}
     </div>
   );
 }
