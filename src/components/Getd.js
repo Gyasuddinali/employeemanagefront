@@ -140,7 +140,7 @@ export default function EmployeeTable() {
         <Modal.Header className='bg-danger' closeButton>
           <Modal.Title >Employee Details</Modal.Title>
         </Modal.Header>
-        <Modal.Body  className='bg-secondary'>
+        <Modal.Body>
           {selectedEmployee && (
             <div className="grid gap-6">
               <div className="flex items-start gap-6">
