@@ -10,8 +10,8 @@ function Header() {
       <div className="container">
         <span className="navbar-brand fw-bold text-white">Employee Management System</span>
         <div className="navbar-nav btn-group container">
-         <button className='btn bg-danger text-white' ><a className="nav-link active text-white" href="/add">Add Employee</a></button>
-         <button className='btn bg-warning'><a className="nav-link active text-white" href="/">Get All Employee</a></button>
+         <button className='btn text-white' ><a className="nav-link active text-white" href="/add">Add Employee</a></button>
+         <button className='btn'><a className="nav-link active text-white" href="/">Get All Employee</a></button>
 
         </div>
       </div>
